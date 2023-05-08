@@ -1,0 +1,11 @@
+{
+  "name": "derajobstheme",
+  "version": "1.0.0",
+  "description": "derajobs theme update",
+  "main": "script.js",
+  "scripts": {
+    "test": "yarn derajobs"
+  },
+  "author": "Waseem Khan",
+  "license": "ISC"
+}
