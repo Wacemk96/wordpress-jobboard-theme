@@ -44,16 +44,34 @@ a:hover {
     color: var(--civi-color-accent)
 }
 
+/* container */
+.site-container {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+}
+
 /* Topbar */
 .top-bar {
+    width: 100%;
+    background-color: black;
+}
+
+.flex {
     display: flex;
-    background-color: var(--civi-color-primary);
-    color: white;
+    width: 1200px;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
-    padding: .5% 10%;
-    font-size: 14px;
-    font-weight: 300;
+    padding: 15px 30px;
+}
+
+.flex-top-bar {
+    padding: 15px 30px;
+    color: white;
+    font-size: 12px;
 }
 
 .subscribe-box i {
@@ -62,6 +80,7 @@ a:hover {
 
 .subscribe-box a {
     cursor: pointer;
+    color: white;
 }
 
 .con-box span {
@@ -77,9 +96,10 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 0 10%;
     height: 80px;
     background-color: var(--yellow-color);
+    width: 100%;
+    margin: auto;
 }
 
 .primary-header .logo img {
@@ -142,10 +162,11 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 10%;
+    padding: 100px 30px;
     transition: var(--transition);
     background-color: var(--yellow-color);
-    height: 90vh;
+    width: 100%;
+    margin: auto;
 }
 
 .hero-info,
@@ -244,9 +265,14 @@ a:hover {
 
 /* Popular Categories */
 .featured-cat {
+    margin: 150px auto;
+    width: 100%;
+}
+
+.cat-flex {
     display: block;
-    height: 80vh;
-    padding: 0 10%;
+    width: 1200px;
+    margin: auto;
 }
 
 .cat-heading {
@@ -330,4 +356,193 @@ a:hover {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     width: fit-content;
+}
+
+.featured-jobs-layout {
+    margin: 150px auto;
+    width: 100%;
+}
+
+.featured-job-flex {
+    display: block;
+    width: 1200px;
+    margin: auto;
+}
+
+.post-list-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.layout-list {
+    border: 1px solid yellow;
+    border-radius: 10px;
+    width: 48%;
+    padding: 25px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.post-header .icon i {
+    font-size: 45px;
+    color: orangered;
+    margin-right: 20px;
+}
+
+.post-header .title h1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.post-header .title p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.featured-icons i {
+    font-size: 22px;
+    margin: 0 5px;
+}
+
+.featured-icons .ri-vip-crown-2-fill {
+    color: rgb(236, 165, 58);
+}
+
+.featured-icons .ri-flashlight-fill {
+    color: black;
+}
+
+.featured-icons {
+    margin-left: auto;
+}
+
+.featured-jobs-meta-data {
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+    margin-bottom: 25px;
+}
+
+.expiry-date p span {
+    margin: 0 5px;
+}
+
+.load-more-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.load-more-btn .primary-btn {
+    width: 200px;
+}
+
+.blog-section-post {
+    margin: 150px auto;
+    width: 100%;
+}
+
+.blog-post-flex{
+    display: block;
+    width: 1200px;
+    margin: auto;
+}
+
+.blog-section-post {
+    padding: 100px 30px;
+}
+
+.blog-post-cart {
+    display: flex;
+}
+
+.cart-layout {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.cart-layout .blog-post-thumbnail {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.blog-post-meta-data {
+    display: flex;
+    gap: 40px;
+    margin: 15px 0;
+}
+
+.blog-post-meta-data p {
+    font-size: 14px;
+}
+
+.cart-layout .post-title {
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+.load-more-btn .primary-btn {
+    margin-top: 45px;
+}
+
+.footer-layout .site-detail {
+    width: 300px;
+}
+
+.footer-layout .site-detail .ft-site-title {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.footer-layout .site-detail .ft-site-desc {
+    font-size: 14px;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.footer-layout .site-detail p {
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+.footer-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+.footer-sec {
+    width: 180px;
+}
+
+.footer-sec .footer-menu .nav-title {
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+
+.footer-sec .footer-menu li {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.allright {
+    padding: 0 30px;
+
+}
+
+.allright p {
+    margin: 35px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--civi-color-secondary);
 }
