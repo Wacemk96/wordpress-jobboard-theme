@@ -2,12 +2,13 @@
 
 /* CSS Variables */
 :root {
-    --civi-color-text: #555555;
-    --civi-color-accent: #007456;
-    --civi-color-primary: #111111;
-    --civi-color-secondary: #999;
-    --civi-color-border: #eee;
-    --civi-color-bg: #f9f9f9;
+    --dera-color-text: #555555;
+    --dera-color-accent: #20ACEF;
+    /* --dera-color-accent: #007456; */
+    --dera-color-primary: #111111;
+    --dera-color-secondary: #999;
+    --dera-color-border: #eee;
+    --dera-color-bg: #f9f9f9;
     --yellow-color: rgb(248, 248, 237);
     --trasition: all .5s ease;
 }
@@ -36,12 +37,12 @@ ul li {
 
 a {
     text-decoration: none;
-    color: var(--civi-color-text);
+    color: var(--dera-color-text);
     cursor: pointer;
 }
 
 a:hover {
-    color: var(--civi-color-accent)
+    color: var(--dera-color-accent)
 }
 
 /* Animation */
@@ -123,7 +124,7 @@ a:hover {
 }
 
 .primary-header .logo img {
-    width: 80px;
+    width: 170px;
 }
 
 .navigation nav ul {
@@ -144,7 +145,7 @@ a:hover {
 .button-9 {
     appearance: button;
     backface-visibility: hidden;
-    background-color: var(--civi-color-accent);
+    background-color: var(--dera-color-accent);
     border-radius: 6px;
     border-width: 0;
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
@@ -205,7 +206,7 @@ a:hover {
 }
 
 .text-hero-info h1 span {
-    color: var(--civi-color-accent);
+    color: var(--dera-color-accent);
 }
 
 .text-hero-info p {
@@ -213,7 +214,7 @@ a:hover {
     width: 70%;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: var(--civi-color-primary);
+    color: var(--dera-color-primary);
     line-height: 1.9rem;
 }
 
@@ -257,7 +258,7 @@ a:hover {
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    color: var(--civi-color-primary);
+    color: var(--dera-color-primary);
 }
 
 .site-visitor-stat {
@@ -271,7 +272,7 @@ a:hover {
 .mcqs-visitor .number {
     font-size: 34px;
     font-weight: 600;
-    color: var(--civi-color-accent);
+    color: var(--dera-color-accent);
     font-family: 'Inter', sans-serif;
     margin: 5px 0;
 }
@@ -280,7 +281,7 @@ a:hover {
 .mcqs-visitor .detail {
     font-size: 16px;
     font-weight: 300;
-    color: var(--civi-color-primary);
+    color: var(--dera-color-primary);
 }
 
 /* Popular Categories */
@@ -308,7 +309,7 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     margin: 15px 0;
-    color: var(--civi-color-primary);
+    color: var(--dera-color-primary);
 }
 
 .cat-heading .cat-title-box p {
@@ -316,7 +317,7 @@ a:hover {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin: 15px 0;
-    color: var(--civi-color-secondary);
+    color: var(--dera-color-secondary);
 }
 
 .cat-list {
@@ -330,7 +331,7 @@ a:hover {
     flex-direction: column;
     background: rgba(0, 116, 86, .05);
     padding: 22px;
-    border: 1px solid var(--civi-color-border);
+    border: 1px solid var(--dera-color-border);
     border-radius: 16px;
     position: relative;
     background-size: cover;
@@ -344,7 +345,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--civi-color-accent);
+    background-color: var(--dera-color-accent);
     color: white;
     border-radius: 50%;
     width: 60px;
@@ -566,12 +567,12 @@ a:hover {
     margin: 35px 0;
     font-size: 16px;
     font-weight: 400;
-    color: var(--civi-color-secondary);
+    color: var(--dera-color-secondary);
 }
 
 /* Toggle */
 .toggle i {
-    font-size: 45px;
+    font-size: 35px;
     margin-right: 20px;
     display: none;
 }
